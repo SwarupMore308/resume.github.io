@@ -1,0 +1,107 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-repeat: no-repeat;
+}
+
+
+
+.heading{
+    
+    display: flex;
+    background-color: rgb(0, 129, 146);
+    flex-direction: row;
+    align-items: center;
+    font-size: 0px;
+    padding-bottom: 0%;
+    
+}
+.name{
+    float: left;
+    width: fit-content;
+    margin-left: 40%;
+    
+}
+.img{
+    float: right;
+    width: fit-content;
+    padding-left: 5%;
+    font-size: 18px;
+    color: rgb(243, 249, 255);
+}
+
+.personInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0%;
+    padding-top: 0%;
+    justify-content: space-between;
+}
+
+.mail{
+    float: left;
+    width:  fit-content;
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+.phno{
+    float: inherit;
+    width:  fit-content;
+
+    font-size: 14px;
+}
+
+.cntry{
+    float: right;
+    width: fit-content;
+    font-size: 14px;
+    margin-right: 10%;
+}
+
+
+.mainresume{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    justify-content: space-between;
+}
+
+.leftpart{
+    display: inline-block;
+    width: 50%;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.rightpart{
+    display: inline-block;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.EduInfo{
+    width: max-content;
+}
+
+.project{
+
+    width: max-content;
+}
+
+.experience{
+
+    width: max-content;
+}
+
+.skills{
+
+    width: max-content;
+}
+
